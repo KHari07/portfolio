@@ -555,7 +555,8 @@ footer {
 /* --- Typing Effect Styles --- */
 .typing-text {
   display: inline-block;
-  white-space: nowrap; /* This completely prevents the text from wrapping to two lines */
+  white-space: nowrap;
+  font-size: 2.5rem; /* This completely prevents the text from wrapping to two lines */
 }
 
 .typing-text::after {
